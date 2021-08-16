@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BakingList</string>
+
+    <string-array name="spinnerItems">
+        <item>Member</item>
+        <item>Admin</item>
+    </string-array>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sg.edu.rp.c346.id20008460.bakinglist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BakingList">
+        <activity android:name=".modifyRecipe"></activity>
+        <activity android:name=".viewIndiviRecipe" />
+        <activity android:name=".addRecipe" />
+        <activity android:name=".homePage" />
+        <activity android:name=".addAdmin" />
+        <activity android:name=".ModifyUsers" />
+        <activity android:name=".manageUsers" />
+        <activity android:name=".toRegister" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

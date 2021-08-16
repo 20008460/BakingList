@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    android:background="@drawable/cbf67cbe8c32cedf385d1033d4eb413e"
+    >
+
+    <TextView
+        android:id="@+id/tvHeaderWlc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome,"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvHeaderLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_shade"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#DC8080"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_inline"
+        android:text="USERNAME"
+        android:textColor="#CEE489BB"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your Username"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_inline"
+        android:text="PASSWORD"
+        android:textColor="#ED8383"
+        android:textSize="24sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:textSize="24sp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleDrawable="@drawable/show_password_selector"
+        app:passwordToggleTint="@color/purple_200"
+        app:boxBackgroundColor="@android:color/transparent"
+        android:background="@android:color/transparent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            app:passwordToggleTint="@color/black"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to register"
+        android:textColor="#9892CF"
+        android:textSize="18sp" />
+
+</LinearLayout>

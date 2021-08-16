@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".homePage"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:id="@+id/homeHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_chettan"
+        android:gravity="center"
+        android:text="HOME PAGE"
+        android:textColor="#75CD98"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/tvHName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coiny"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/listRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonAddR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Recipe" />
+
+</LinearLayout>
